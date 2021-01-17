@@ -2,9 +2,11 @@
   flex: 0.3;
   border: 1px solid rgb(190, 183, 183);
   border-radius: 10px;
-  height: 450px;
+  box-shadow: 5px 10px 7px rgba(0, 0, 0, 0.25);
+  height: 530px;
   padding: 10px;
   color: gray;
+  background-color: rgb(238, 229, 229);
 }
 
 .nominations > h2 {

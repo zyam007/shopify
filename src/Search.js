@@ -7,8 +7,10 @@ import { searchMovies } from './features/resultsSlice';
 export default function Search() {
   const dispatch = useDispatch();
 
+  const handleSubmit = (e) => {
+    e.preventDefault();
+  };
   const handleSearch = (e) => {
-    //dispatch axios request
     e.preventDefault(); //maybe don't need it
     dispatch(searchMovies(e.target.value));
   };
@@ -28,7 +30,9 @@ export default function Search() {
             placeholder="Search"
             type="text"
           />
-          <button type="submit">Search</button>
+          <button onClick={handleSubmit} type="submit">
+            Search
+          </button>
         </form>
       </div>
     </div>

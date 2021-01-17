@@ -24,9 +24,15 @@
   outline: none;
   border: none;
   background: none;
-  width: 350px;
+  width: 250px;
 }
 
 .search__field > form > button {
   display: none;
+}
+
+@media only screen and (max-width: 400px) {
+  .search__field > form > input {
+    width: 150px;
+  }
 }
