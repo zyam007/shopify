@@ -35,7 +35,7 @@ export const {
 export const searchMovies = (title) => async (dispatch) => {
   try {
     const { data } = await axios.get(
-      `http://www.omdbapi.com/?apikey=883038a1&s=${title}&type=movie`
+      `https://www.omdbapi.com/?apikey=883038a1&s=${title}&type=movie`
     );
     if (!data.Error) {
       dispatch(search_results(data.Search));
