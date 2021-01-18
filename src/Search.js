@@ -18,10 +18,7 @@ export default function Search() {
   return (
     <div className="search">
       {/* Image of Ibdd */}
-      <img
-        src="https://www.flaticon.com/svg/vstatic/svg/889/889199.svg?token=exp=1610829786~hmac=ee85f8f12dc890f3ac16bd7540622712"
-        alt=""
-      />
+      <img src="https://container-ph-vd.s3.amazonaws.com/imdb.svg" alt="" />
       <div className="search__field">
         <SearchIcon />
         <form>
