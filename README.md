@@ -2,8 +2,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Nominations for Shoppie
 
-This is my submisson for Shopify internship
-Link :
+- This is my submisson for Shopify internship
+- Link : https://nominations.herokuapp.com
 
 ## Tech Stack
 
